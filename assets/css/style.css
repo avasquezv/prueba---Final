@@ -1,0 +1,29 @@
+body {
+    color: #ffffff;
+}
+.color-fondo {
+    background-color: black;
+}
+.titulo1 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.linea {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.columnas {
+    text-align: left;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+p.card-text {
+    font-size: 16px;
+    font-weight: normal;
+ }
+div.card-body {
+    padding-top: 22.21px;
+    padding-left: 15.19px;
+    padding-right: 15.19px;
+}
