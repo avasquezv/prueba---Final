@@ -10,17 +10,17 @@ body {
 }
 .titulo1 {
     margin-top: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 .linea {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .columnas {
     text-align: left;
     font-weight: bold;
-    padding-top: 25px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 90px;
 }
 .card {
     margin: 10px;
@@ -29,18 +29,14 @@ body {
 p.card-text {
     font-size: 16px;
     font-weight: normal;
- }
-div.card-body {
-    padding-top: 22.21px;
-    padding-left: 15.19px;
-    padding-right: 15.19px;
+    text-align: left;
 }
 
 .destacados {
-    padding-bottom: 70px;
+    padding-bottom: 100px;
 }
 footer {
-    margin-top: 30px;
+    margin-top: 50px;
     border: 50px 50px;
 }
 .texto-footer {
@@ -50,8 +46,9 @@ footer {
 }
 .logos {
     display: inline-block;
-    
+    margin-top: 10px;   
 }
-.i {
-    margin: 150px 150px;
+.fab {
+    margin: 0px 5px;
 }
+
