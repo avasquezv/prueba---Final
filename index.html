@@ -44,7 +44,9 @@
 
     </header>
 
+    
     <div class="color-fondo">
+        <section>
         <div class="inicio" id="inicio">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -68,8 +70,9 @@
                 </button>
               </div>
         </div>
+        </section>
 
-        <div class="quienes-somos container d-sm-none d-md-block" id="quienes-somos">
+        <section class="quienes-somos container d-sm-none d-md-block" id="quienes-somos">
             <h2 class="titulo1 text-center">¿Quiénes somos?</h2>
             <hr class="linea bg-info">
             <div class="row">
@@ -113,14 +116,16 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="destacados  container" id="destacados">
+        <section class="destacados  container" id="destacados">
             <h2 class="titulo1 text-center">Destacados</h2>
             <hr class="linea bg-info">
-            <div class="tarjetas container">
-                <div class="card-deck row">
-                    <div class="card bg-info col-md-3 col-sm-3">
+        </section>
+        <div class="tarjetas"> 
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card bg-info ">
                         <img src="assets/img/card1.jpg" class="card-img-top" alt="card1">
                         <div class="card-body">
                             <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -131,7 +136,10 @@
                             </p>
                         </div>
                     </div>
-                    <div class="card bg-info col-md-3 col-sm-3">
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card bg-info ">
                         <img src="assets/img/card2.jpg" class="card-img-top" alt="card2">
                         <div class="card-body">
                             <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -142,7 +150,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="card bg-info col-md-3 col-sm-3">
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-info ">
                         <img src="assets/img/card3.jpg" class="card-img-top" alt="card3">
                         <div class="card-body">
                             <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -153,7 +163,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="card bg-info col-md-3 col-sm-3">
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-info ">
                         <img src="assets/img/card4.jpg" class="card-img-top" alt="card4">
                         <div class="card-body">
                             <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -166,13 +178,14 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>       
+        
 
-        <div class="contacto container" id="contacto"> 
+        <section class="contacto container" id="contacto"> 
             <h2 class="titulo1 text-center">Contacto</h2>
             <hr class="linea bg-info">  
             <div class="typeform-widget" data-url="https://form.typeform.com/to/aaxDLBGA?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-        </div>
+        </section>
 
         <footer class="container-expand bg-info">
             <div class="row">
@@ -187,9 +200,7 @@
         </footer>
     </div>
 
-<script>$( "#quienes-somos" ).click(function() {
-  $( "#quienes-somos" ).scroll();
-});</script>
+
 
 
 
@@ -200,7 +211,7 @@ src="https://code.jquery.com/jquery-3.3.1.min.js"
 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 crossorigin="anonymous"
 ></script>
-<!--Bundle popper & boostrap-->
+<!--Bundle popper & boostrap v5.0-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" 
 crossorigin="anonymous"></script>
